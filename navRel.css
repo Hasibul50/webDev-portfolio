@@ -1,14 +1,16 @@
 /* share style */
 body{
     font-family: "Open Sans", sans-serif;
+    background-color:rgb(255, 248, 243);
   
   
 }
 nav{
     display: flex;
-    /* border:2px solid red ; */
+    border:2px solid red ;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav>ul{
     display: flex;
@@ -44,4 +46,39 @@ color: white;
 padding: 15px 35px;
 /* align-items: center; */
 }
+/* header related style */
+.banner{
+    padding: 50px 200px;
+    /* border: 2px solid red; */
+    /* background-image: url("./../portfolio-resources/images/hardy.png");
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.bio{
+    width: 585px;
+}
 
+.bttn{
+    width: 200px;
+    height: 54px;
+
+}
+.cv{
+    /* margin-right: 30px; */
+    border-radius: 5px;
+
+background: rgb(253, 110, 10);
+color: white;
+
+}
+.Contact{
+    box-sizing: border-box;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+
+} 
+.insideBanner{
+    /* border: 2px solid red; */
+}
