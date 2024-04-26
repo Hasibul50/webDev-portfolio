@@ -9,7 +9,10 @@
 body {
     font-family: "Open Sans", sans-serif;
     /* background-color:rgb(255, 248, 243); */
-
+    height: 200vh;
+}
+header{
+    background-color: rgb(255, 248, 243);
 
 }
 
@@ -60,7 +63,7 @@ nav li {
 
 /* header related style */
 .banner {
-    margin: 0px 200px;
+    margin: 0 auto;
     padding: 0 200px;
     display: flex;
     width: auto;
@@ -167,26 +170,70 @@ main {
     text-align: center;
     width: 909px;
     margin: 60px auto;
+    max-width: 1164px;
+    margin: 50 auto;
 
 }
 
 .div-section2 {
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
 
 .box {
-    text-align: center;
-    width: 201px;
+    
+    width: 267px;
+    height: 377px;
     margin-right: 20px;
     border-radius: 5px;
 
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
+    padding: 25px;
+    
 }
-.para-section2{
-    margin: 25px 0px;
-}
+
 .section2-head{
     margin: 25px 0px;
+}
+
+.p{
+    color: rgb(117, 117, 117)
+}
+/* section3 begin */
+.section3{
+    width: 1160px;
+    margin: 0 auto;
+}
+.section3-head{
+    text-align: center;
+    margin:40px 0 ;
+}
+.inter-section3{
+    display: flex;
+    justify-content: space-between;
+}
+.right-aside{
+    width: 511px;
+    height: 175px;
+    /* margin: 0 20px ; */
+
+}
+.left-aside{
+    width: 511px;
+    height: 175px;
+}
+.section3-padding{
+    /* padding: 30px; */
+}
+/* footer related */
+.footer-side{
+    display: flex;
+}
+.right-aside-foot{
+    
+}
+.left-aside-foot{
+
 }
