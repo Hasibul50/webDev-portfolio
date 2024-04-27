@@ -9,9 +9,10 @@
 body {
     font-family: "Open Sans", sans-serif;
     /* background-color:rgb(255, 248, 243); */
-    height: 200vh;
+    /* height: 200vh; */
 }
-header{
+
+header {
     background-color: rgb(255, 248, 243);
 
 }
@@ -54,7 +55,7 @@ nav li {
 
 .button {
     border-radius: 5px;
-    border-color: rgb(253, 110, 10);
+    border: 0 px solid rgb(253, 110, 10);
     background: rgb(253, 110, 10);
     color: white;
     padding: 15px 35px;
@@ -83,6 +84,7 @@ nav li {
 .bttn {
     width: 200px;
     height: 54px;
+    border: 0px solid rgb(253, 110, 10) ;
 
 }
 
@@ -182,7 +184,7 @@ main {
 }
 
 .box {
-    
+
     width: 267px;
     height: 377px;
     margin-right: 20px;
@@ -191,49 +193,118 @@ main {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
     padding: 25px;
-    
+
 }
 
-.section2-head{
+.section2-head {
     margin: 25px 0px;
 }
 
-.p{
+.p {
     color: rgb(117, 117, 117)
 }
+
 /* section3 begin */
-.section3{
+.section3 {
     width: 1160px;
     margin: 0 auto;
+    height: 600px;
 }
-.section3-head{
+
+.section3-head {
     text-align: center;
-    margin:40px 0 ;
+    margin: 40px 0;
 }
-.inter-section3{
+
+.inter-section3 {
     display: flex;
     justify-content: space-between;
 }
-.right-aside{
+
+.right-aside {
     width: 511px;
     height: 175px;
     /* margin: 0 20px ; */
 
 }
-.left-aside{
+
+.left-aside {
     width: 511px;
     height: 175px;
 }
-.section3-padding{
+
+.section3-padding {
     /* padding: 30px; */
 }
-/* footer related */
-.footer-side{
-    display: flex;
-}
-.right-aside-foot{
-    
-}
-.left-aside-foot{
 
+/* footer related */
+.footer-protection {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 100px 0;
+
+}
+
+.footer-side {
+    margin: 0 auto;
+    background: rgb(255, 248, 243);
+    width: 1600px;
+    height: 780px;
+
+}
+
+.right-aside-foot {
+    width: 562px;
+    /* height: 54px; */
+    /* border: 2px solid red; */
+}
+
+.left-aside-foot {
+    /* border: 2px solid red; */
+}
+
+.connect {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.p-footer {
+    /* margin: 100px 0; */
+    margin: 30px 0;
+}
+
+input {
+    gap: px;
+    display: block;
+    width: 450px;
+    height: 50px;
+    padding: 18px 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+
+    /* White Color */
+    background: rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
+
+}
+
+.img {
+    margin-right: 10px;
+}
+
+.input-field {
+    margin: 20px 0;
+    width: 100%;
+
+}
+
+.submit {
+    background-color: rgb(253, 110, 10);
+    width: 150px;
+    height: 64px;
+    font-size: ;
+    color:rgb(255, 255, 255) ;
 }
